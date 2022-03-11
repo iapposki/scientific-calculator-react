@@ -1,0 +1,33 @@
+.numpad{
+    display: grid;
+    display: grid;
+    /* padding: 30px; */
+    /* margin: 5px; */
+    font-weight: 900;
+    grid-template-columns: repeat(5,4.6em);
+    grid-template-rows: repeat(6,4.6em);
+}
+
+.main-app{
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    align-items: center;
+    flex-direction: column;
+    width: 672px;
+    margin: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 50px;
+    /* background-color: black; */
+}
+
+.input{
+    width: 12.85em;
+    height: 2.5em;
+    font-size: 21pt;
+}
+
+button{
+    font-size: 21pt;
+}
