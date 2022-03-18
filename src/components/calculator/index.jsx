@@ -98,7 +98,7 @@ class Calculator extends React.Component{
                     <button name="3" onClick={this.handleClick}>3</button>
                     <button name="+" onClick={this.handleClick}>+</button>
                     <button name="ln(" onClick={this.handleClick}>ln</button>
-                    <button name="sqrt(" onClick={this.handleClick}>&#8730;</button>
+                    <button name="^" onClick={this.handleClick}>x^y</button>
                     <button name="0" onClick={this.handleClick}>0</button>
                     <button name="." onClick={this.handleClick}>.</button>
                     <button name="=" onClick={this.handleSolve}>=</button>
